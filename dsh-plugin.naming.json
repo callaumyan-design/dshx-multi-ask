@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "policy": "dsh-plugin-naming/v1",
+  "plugin": { "namespace": "dshx", "name": "multi-ask", "coordinate": "dshx/multi-ask", "packageName": "dshx-multi-ask" },
+  "names": {
+    "pluginNames": ["dshx-multi-ask"],
+    "loaderIds": ["dshx-multi-ask"],
+    "services": [],
+    "tools": [],
+    "commands": ["multi"],
+    "skills": [],
+    "skillProviders": [],
+    "events": [],
+    "settingsNamespaces": [],
+    "routes": [
+      { "kind": "exact", "path": "/dshx-multi-ask/ask" },
+      { "kind": "exact", "path": "/dshx-multi-ask/models" },
+      { "kind": "exact", "path": "/dshx-multi-ask/pending" },
+      { "kind": "exact", "path": "/dshx-multi-ask/feed" }
+    ]
+  }
+}
